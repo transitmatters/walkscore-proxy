@@ -61,10 +61,6 @@ aws cloudformation deploy --template-file cfn/packaged.yaml --stack-name $CF_STA
 
 popd > /dev/null
 
-# Grab the cloudfront ID and invalidate its cache
-CLOUDFRONT_ID=$(aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items!=null] | [?contains(Aliases.Items, '$BACKEND_HOSTNAME')].Id | [0]" --output text)
-aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
-
 echo
 echo
 echo "Complete"
