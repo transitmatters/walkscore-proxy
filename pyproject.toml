@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "walkscore-proxy"
 version = "1.0.0"
-description = "Proxy calls to Walkscore API to hide API key and cache results"
+description = "Proxy calls to Walkscore® API to hide API key and cache results"
 authors = ["TransitMatters Labs Team"]
 license = "MIT"
 
