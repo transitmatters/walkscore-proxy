@@ -1,0 +1,1759 @@
+[
+  {
+    "station": "place-alfcl",
+    "stop_name": "Alewife",
+    "address": "Alewife Brook Pkwy and Cambridge Park Dr, Cambridge, MA 02140",
+    "latitude": 42.39583,
+    "longitude": -71.141287
+  },
+  {
+    "station": "place-davis",
+    "stop_name": "Davis",
+    "address": "College Ave and Elm St, Somerville, MA",
+    "latitude": 42.39674,
+    "longitude": -71.121815
+  },
+  {
+    "station": "place-portr",
+    "stop_name": "Porter",
+    "address": "1899 Massachusetts Ave, Cambridge, MA 02140",
+    "latitude": 42.3884,
+    "longitude": -71.119149
+  },
+  {
+    "station": "place-harsq",
+    "stop_name": "Harvard",
+    "address": "1400 Massachusetts Ave, Cambridge, MA",
+    "latitude": 42.373362,
+    "longitude": -71.118956
+  },
+  {
+    "station": "place-cntsq",
+    "stop_name": "Central",
+    "address": "Massachusetts Ave and Prospect St, Cambridge, MA 02139",
+    "latitude": 42.365486,
+    "longitude": -71.103802
+  },
+  {
+    "station": "place-knncl",
+    "stop_name": "Kendall/MIT",
+    "address": "300 Main St, Cambridge, MA 02142",
+    "latitude": 42.362491,
+    "longitude": -71.086176
+  },
+  {
+    "station": "place-chmnl",
+    "stop_name": "Charles/MGH",
+    "address": "Cambridge St and Charles St, Boston, MA",
+    "latitude": 42.361166,
+    "longitude": -71.070628
+  },
+  {
+    "station": "place-pktrm",
+    "stop_name": "Park Street",
+    "address": "Tremont St and Winter St, Boston, MA 02108",
+    "latitude": 42.356395,
+    "longitude": -71.062424
+  },
+  {
+    "station": "place-dwnxg",
+    "stop_name": "Downtown Crossing",
+    "address": "Washington St and Summer St, Boston, MA",
+    "latitude": 42.355518,
+    "longitude": -71.060225
+  },
+  {
+    "station": "place-sstat",
+    "stop_name": "South Station",
+    "address": "700 Atlantic Ave, Boston, MA 02110",
+    "latitude": 42.352271,
+    "longitude": -71.055242
+  },
+  {
+    "station": "place-brdwy",
+    "stop_name": "Broadway",
+    "address": "Dorchester Ave and Broadway, Boston, MA",
+    "latitude": 42.342622,
+    "longitude": -71.056967
+  },
+  {
+    "station": "place-andrw",
+    "stop_name": "Andrew",
+    "address": "Dorchester Ave and Southhampton St, South Boston, MA 02127",
+    "latitude": 42.330154,
+    "longitude": -71.057655
+  },
+  {
+    "station": "place-jfk",
+    "stop_name": "JFK/UMass",
+    "address": "599 Old Colony Ave, Boston, MA 02127-3805",
+    "latitude": 42.320685,
+    "longitude": -71.052391
+  },
+  {
+    "station": "place-shmnl",
+    "stop_name": "Savin Hill",
+    "address": "125 Savin Hill Ave, Dorchester, MA 02124",
+    "latitude": 42.31129,
+    "longitude": -71.053331
+  },
+  {
+    "station": "place-fldcr",
+    "stop_name": "Fields Corner",
+    "address": "50 Freeman St, Dorchester, MA 02122",
+    "latitude": 42.300093,
+    "longitude": -71.061667
+  },
+  {
+    "station": "place-smmnl",
+    "stop_name": "Shawmut",
+    "address": "Dayton St and Clementine Park, Dorchester, MA 02124",
+    "latitude": 42.293126,
+    "longitude": -71.065738
+  },
+  {
+    "station": "place-asmnl",
+    "stop_name": "Ashmont",
+    "address": "Dorchester Ave and Ashmont St, Boston, MA 02124",
+    "latitude": 42.28452,
+    "longitude": -71.063777
+  },
+  {
+    "station": "place-nqncy",
+    "stop_name": "North Quincy",
+    "address": "Hancock St and Hunt St, Quincy, MA 02171",
+    "latitude": 42.275275,
+    "longitude": -71.029583
+  },
+  {
+    "station": "place-wlsta",
+    "stop_name": "Wollaston",
+    "address": "90 Woodbine St, Quincy, MA 02171",
+    "latitude": 42.266514,
+    "longitude": -71.020337
+  },
+  {
+    "station": "place-qnctr",
+    "stop_name": "Quincy Center",
+    "address": "175 Thomas E Burgin Pkwy, Quincy, MA 02169",
+    "latitude": 42.251809,
+    "longitude": -71.005409
+  },
+  {
+    "station": "place-qamnl",
+    "stop_name": "Quincy Adams",
+    "address": "Burgin Pkwy and Centre St, Quincy, MA 02169",
+    "latitude": 42.233391,
+    "longitude": -71.007153
+  },
+  {
+    "station": "place-brntn",
+    "stop_name": "Braintree",
+    "address": "197 Ivory St, Braintree, MA 02184",
+    "latitude": 42.207854,
+    "longitude": -71.001138
+  },
+  {
+    "station": "place-ogmnl",
+    "stop_name": "Oak Grove",
+    "address": "Washington St and Winter St, Malden, MA 02148",
+    "latitude": 42.43668,
+    "longitude": -71.071097
+  },
+  {
+    "station": "place-mlmnl",
+    "stop_name": "Malden Center",
+    "address": "Commercial St and Pleasant St, Malden, MA 02148",
+    "latitude": 42.426632,
+    "longitude": -71.07411
+  },
+  {
+    "station": "place-welln",
+    "stop_name": "Wellington",
+    "address": "Revere Beach Pkwy and Rivers Edge Dr, Medford, MA 02155",
+    "latitude": 42.40237,
+    "longitude": -71.077082
+  },
+  {
+    "station": "place-astao",
+    "stop_name": "Assembly",
+    "address": "499 Foley St, Somerville, MA 02145",
+    "latitude": 42.392811,
+    "longitude": -71.077257
+  },
+  {
+    "station": "place-sull",
+    "stop_name": "Sullivan Square",
+    "address": "Maffa Way and Cambridge St, Charlestown, MA 02129",
+    "latitude": 42.383975,
+    "longitude": -71.076994
+  },
+  {
+    "station": "place-ccmnl",
+    "stop_name": "Community College",
+    "address": "Austin St and Rutherford Ave, Charlestown, MA",
+    "latitude": 42.373622,
+    "longitude": -71.069533
+  },
+  {
+    "station": "place-north",
+    "stop_name": "North Station",
+    "address": "135 Causeway St, Boston, MA 02114",
+    "latitude": 42.365577,
+    "longitude": -71.06129
+  },
+  {
+    "station": "place-haecl",
+    "stop_name": "Haymarket",
+    "address": "136 Blackstone St, Boston, MA 02109",
+    "latitude": 42.363021,
+    "longitude": -71.05829
+  },
+  {
+    "station": "place-state",
+    "stop_name": "State Street",
+    "address": "200 Washington St, Boston, MA",
+    "latitude": 42.358978,
+    "longitude": -71.057598
+  },
+  {
+    "station": "place-chncl",
+    "stop_name": "Chinatown",
+    "address": "Washington St and Boylston St, Boston, MA",
+    "latitude": 42.352547,
+    "longitude": -71.062752
+  },
+  {
+    "station": "place-tumnl",
+    "stop_name": "Tufts Medical Center",
+    "address": "750 Washington St, Boston, MA",
+    "latitude": 42.349662,
+    "longitude": -71.063917
+  },
+  {
+    "station": "place-bbsta",
+    "stop_name": "Back Bay",
+    "address": "145 Dartmouth St Boston, MA 02116",
+    "latitude": 42.34735,
+    "longitude": -71.075727
+  },
+  {
+    "station": "place-masta",
+    "stop_name": "Massachusetts Avenue",
+    "address": "393 Massachusetts Ave, Boston, MA 02118",
+    "latitude": 42.341512,
+    "longitude": -71.083423
+  },
+  {
+    "station": "place-rugg",
+    "stop_name": "Ruggles",
+    "address": "1150 Tremont St, Roxbury, MA 02120",
+    "latitude": 42.336377,
+    "longitude": -71.088961
+  },
+  {
+    "station": "place-rcmnl",
+    "stop_name": "Roxbury Crossing",
+    "address": "1400 Tremont St, Roxbury, MA",
+    "latitude": 42.331397,
+    "longitude": -71.095451
+  },
+  {
+    "station": "place-jaksn",
+    "stop_name": "Jackson Square",
+    "address": "1500 Columbus Ave, Jamaica Plain, MA",
+    "latitude": 42.323132,
+    "longitude": -71.099592
+  },
+  {
+    "station": "place-sbmnl",
+    "stop_name": "Stony Brook",
+    "address": "100 Boylston St, Jamaica Plain, MA",
+    "latitude": 42.317062,
+    "longitude": -71.104248
+  },
+  {
+    "station": "place-grnst",
+    "stop_name": "Green Street",
+    "address": "150 Green St, Jamaica Plain, MA",
+    "latitude": 42.310525,
+    "longitude": -71.107414
+  },
+  {
+    "station": "place-forhl",
+    "stop_name": "Forest Hills",
+    "address": "Washington St and Hyde Park Ave, Jamaica Plain, MA 02130",
+    "latitude": 42.300713,
+    "longitude": -71.113943
+  },
+  {
+    "station": "place-wondl",
+    "stop_name": "Wonderland",
+    "address": "1300 North Shore Rd, Revere, MA 02151",
+    "latitude": 42.41342,
+    "longitude": -70.991648
+  },
+  {
+    "station": "place-rbmnl",
+    "stop_name": "Revere Beach",
+    "address": "220 Shirley Ave, Revere, MA",
+    "latitude": 42.407843,
+    "longitude": -70.992533
+  },
+  {
+    "station": "place-bmmnl",
+    "stop_name": "Beachmont",
+    "address": "630 Winthrop Ave, Revere, MA 02151",
+    "latitude": 42.397542,
+    "longitude": -70.992319
+  },
+  {
+    "station": "place-sdmnl",
+    "stop_name": "Suffolk Downs",
+    "address": "1230 Bennington St, East Boston, MA 02128",
+    "latitude": 42.390501,
+    "longitude": -70.997123
+  },
+  {
+    "station": "place-orhte",
+    "stop_name": "Orient Heights",
+    "address": "1000 Bennington St, East Boston, MA 02128",
+    "latitude": 42.386867,
+    "longitude": -71.004736
+  },
+  {
+    "station": "place-wimnl",
+    "stop_name": "Wood Island",
+    "address": "450 Bennington St, East Boston, MA",
+    "latitude": 42.37964,
+    "longitude": -71.022865
+  },
+  {
+    "station": "place-aport",
+    "stop_name": "Airport",
+    "address": "Transportation Way and Service Rd, Boston, MA 02128",
+    "latitude": 42.374262,
+    "longitude": -71.030395
+  },
+  {
+    "station": "place-mvbcl",
+    "stop_name": "Maverick",
+    "address": "Sumner St and Maverick Sq, East Boston, MA",
+    "latitude": 42.369119,
+    "longitude": -71.03953
+  },
+  {
+    "station": "place-aqucl",
+    "stop_name": "Aquarium",
+    "address": "Atlantic Ave and State St, Boston, MA 02120",
+    "latitude": 42.359784,
+    "longitude": -71.051652
+  },
+  {
+    "station": "place-gover",
+    "stop_name": "Government Center",
+    "address": "Cambridge St and Court St, Boston, MA",
+    "latitude": 42.359705,
+    "longitude": -71.059215
+  },
+  {
+    "station": "place-bomnl",
+    "stop_name": "Bowdoin",
+    "address": "Cambridge St and New Chardon St, Boston, MA 02114",
+    "latitude": 42.361365,
+    "longitude": -71.062037
+  },
+  {
+    "station": "place-mdftf",
+    "stop_name": "Medford/Tufts",
+    "address": "460 Boston Ave, Medford, MA 02155",
+    "latitude": 42.407975,
+    "longitude": -71.117044
+  },
+  {
+    "station": "place-balsq",
+    "stop_name": "Ball Square",
+    "address": "646 Boston Ave, Somerville, MA 02144",
+    "latitude": 42.399889,
+    "longitude": -71.111003
+  },
+  {
+    "station": "place-mgngl",
+    "stop_name": "Magoun Square",
+    "address": "270 Lowell St, Somerville, MA 02145",
+    "latitude": 42.393682,
+    "longitude": -71.106388
+  },
+  {
+    "station": "place-gilmn",
+    "stop_name": "Gilman Square",
+    "address": "161 School St, Somerville, MA 02143",
+    "latitude": 42.387928,
+    "longitude": -71.096766
+  },
+  {
+    "station": "place-esomr",
+    "stop_name": "East Somerville",
+    "address": "134 Washington St, Somerville, MA 02143",
+    "latitude": 42.379467,
+    "longitude": -71.086625
+  },
+  {
+    "station": "place-unsqu",
+    "stop_name": "Union Square",
+    "address": "50 Prospect St, Somerville, MA 02143",
+    "latitude": 42.377359,
+    "longitude": -71.094761
+  },
+  {
+    "station": "place-lech",
+    "stop_name": "Lechmere",
+    "address": "3 North First St, Cambridge, MA 02141",
+    "latitude": 42.371572,
+    "longitude": -71.076584
+  },
+  {
+    "station": "place-spmnl",
+    "stop_name": "Science Park",
+    "address": "Leverett Circle and Nashua St, Boston, MA 02114",
+    "latitude": 42.366664,
+    "longitude": -71.067666
+  },
+  {
+    "station": "place-boyls",
+    "stop_name": "Boylston",
+    "address": "Boylston St and Tremont St, Boston, MA",
+    "latitude": 42.35302,
+    "longitude": -71.06459
+  },
+  {
+    "station": "place-armnl",
+    "stop_name": "Arlington",
+    "address": "Arlington St and Boylston St, Boston, MA 02116",
+    "latitude": 42.351902,
+    "longitude": -71.070893
+  },
+  {
+    "station": "place-coecl",
+    "stop_name": "Copley",
+    "address": "Boylston St and Dartmouth St, Boston, MA",
+    "latitude": 42.349974,
+    "longitude": -71.077447
+  },
+  {
+    "station": "place-hymnl",
+    "stop_name": "Hynes",
+    "address": "100 Massachusetts Ave, Boston, MA",
+    "latitude": 42.347888,
+    "longitude": -71.087903
+  },
+  {
+    "station": "place-kencl",
+    "stop_name": "Kenmore",
+    "address": "Commonwealth Ave and Kenmore St, Boston, MA 02215",
+    "latitude": 42.348949,
+    "longitude": -71.095169
+  },
+  {
+    "station": "place-bland",
+    "stop_name": "Blandford Street",
+    "address": "Commonwealth Ave and Blandford Mall, Boston, MA 02215",
+    "latitude": 42.349293,
+    "longitude": -71.100258
+  },
+  {
+    "station": "place-buest",
+    "stop_name": "Boston University East",
+    "address": "Commonwealth Ave and Granby St, Boston, MA 02215",
+    "latitude": 42.349735,
+    "longitude": -71.103889
+  },
+  {
+    "station": "place-bucen",
+    "stop_name": "Boston University Central",
+    "address": "Commonwealth Ave and Marsh Chapel, Boston, MA 02215",
+    "latitude": 42.350082,
+    "longitude": -71.106865
+  },
+  {
+    "station": "place-amory",
+    "stop_name": "Amory Street",
+    "address": "Commonwealth Ave and Amory St, Boston, MA 02215",
+    "latitude": 42.350992,
+    "longitude": -71.114748
+  },
+  {
+    "station": "place-babck",
+    "stop_name": "Babcock Street",
+    "address": "Commonwealth Ave and Babcock St, Boston, MA 02215",
+    "latitude": 42.351616,
+    "longitude": -71.119924
+  },
+  {
+    "station": "place-brico",
+    "stop_name": "Packards Corner",
+    "address": "Commonwealth Ave and Brighton Ave, Boston, MA 02215",
+    "latitude": 42.351967,
+    "longitude": -71.125031
+  },
+  {
+    "station": "place-harvd",
+    "stop_name": "Harvard Avenue",
+    "address": "Commonwealth Ave and Harvard Ave, Boston, MA",
+    "latitude": 42.350243,
+    "longitude": -71.131355
+  },
+  {
+    "station": "place-grigg",
+    "stop_name": "Griggs Street",
+    "address": "Commonwealth Ave and Griggs St, Boston, MA",
+    "latitude": 42.348545,
+    "longitude": -71.134949
+  },
+  {
+    "station": "place-alsgr",
+    "stop_name": "Allston Street",
+    "address": "Allston St and Commonwealth Ave, Boston, MA 02134",
+    "latitude": 42.348701,
+    "longitude": -71.137955
+  },
+  {
+    "station": "place-wrnst",
+    "stop_name": "Warren Street",
+    "address": "Commonwealth Ave and Warren St, Boston, MA",
+    "latitude": 42.348343,
+    "longitude": -71.140457
+  },
+  {
+    "station": "place-wascm",
+    "stop_name": "Washington Street",
+    "address": "Commonwealth Ave and Washington St, Boston, MA",
+    "latitude": 42.343864,
+    "longitude": -71.142853
+  },
+  {
+    "station": "place-sthld",
+    "stop_name": "Sutherland Road",
+    "address": "Commonwealth Ave and Sutherland Rd, Boston, MA",
+    "latitude": 42.341614,
+    "longitude": -71.146202
+  },
+  {
+    "station": "place-chswk",
+    "stop_name": "Chiswick Road",
+    "address": "Commonwealth Ave and Chiswick Rd, Boston, MA",
+    "latitude": 42.340805,
+    "longitude": -71.150711
+  },
+  {
+    "station": "place-chill",
+    "stop_name": "Chestnut Hill Avenue",
+    "address": "Commonwealth Ave and Chestnut Hill Ave, Boston, MA",
+    "latitude": 42.338169,
+    "longitude": -71.15316
+  },
+  {
+    "station": "place-sougr",
+    "stop_name": "South Street",
+    "address": null,
+    "latitude": 42.3396,
+    "longitude": -71.157661
+  },
+  {
+    "station": "place-lake",
+    "stop_name": "Boston College",
+    "address": "Commonwealth Ave and Lake St, Boston, MA 02135",
+    "latitude": 42.340081,
+    "longitude": -71.166769
+  },
+  {
+    "station": "place-smary",
+    "stop_name": "Saint Marys Street",
+    "address": "Beacon St and Saint Mary's St, Boston, MA",
+    "latitude": 42.345974,
+    "longitude": -71.107353
+  },
+  {
+    "station": "place-hwsst",
+    "stop_name": "Hawes Street",
+    "address": "Beacon St and Hawes St, Brookline, MA",
+    "latitude": 42.344906,
+    "longitude": -71.111145
+  },
+  {
+    "station": "place-kntst",
+    "stop_name": "Kent Street",
+    "address": "Beacon St and Powell St, Brookline, MA",
+    "latitude": 42.344074,
+    "longitude": -71.114197
+  },
+  {
+    "station": "place-stpul",
+    "stop_name": "Saint Paul Street (C)",
+    "address": "Beacon St and Saint Paul St, Brookline, MA 02446",
+    "latitude": 42.343327,
+    "longitude": -71.116997
+  },
+  {
+    "station": "place-cool",
+    "stop_name": "Coolidge Corner",
+    "address": "Beacon St and Harvard St, Brookline, MA",
+    "latitude": 42.342116,
+    "longitude": -71.121263
+  },
+  {
+    "station": "place-sumav",
+    "stop_name": "Summit Avenue",
+    "address": "Beacon St and Summit Ave, Brookline, MA",
+    "latitude": 42.34111,
+    "longitude": -71.12561
+  },
+  {
+    "station": "place-bndhl",
+    "stop_name": "Brandon Hall",
+    "address": "1481 Beacon St, Brookline, MA",
+    "latitude": 42.340023,
+    "longitude": -71.129082
+  },
+  {
+    "station": "place-fbkst",
+    "stop_name": "Fairbanks Street",
+    "address": "Beacon St and Fairbanks Ave, Brookline, MA",
+    "latitude": 42.339725,
+    "longitude": -71.131073
+  },
+  {
+    "station": "place-bcnwa",
+    "stop_name": "Washington Square",
+    "address": "Beacon St and Washington St, Brookline, MA",
+    "latitude": 42.339394,
+    "longitude": -71.13533
+  },
+  {
+    "station": "place-tapst",
+    "stop_name": "Tappan Street",
+    "address": "Beacon St and Tappan St, Brookline, MA",
+    "latitude": 42.338459,
+    "longitude": -71.138702
+  },
+  {
+    "station": "place-denrd",
+    "stop_name": "Dean Road",
+    "address": "Beacon St and Dean Rd, Brookline, MA",
+    "latitude": 42.337807,
+    "longitude": -71.141853
+  },
+  {
+    "station": "place-engav",
+    "stop_name": "Englewood Avenue",
+    "address": "Beacon St and Englewood Ave, Brookline, MA",
+    "latitude": 42.336971,
+    "longitude": -71.14566
+  },
+  {
+    "station": "place-clmnl",
+    "stop_name": "Cleveland Circle",
+    "address": "Beacon St and Chestnut Hill Ave, Brighton, MA",
+    "latitude": 42.336142,
+    "longitude": -71.149326
+  },
+  {
+    "station": "place-fenwy",
+    "stop_name": "Fenway",
+    "address": "411 Park Dr, Boston, MA 02215",
+    "latitude": 42.345403,
+    "longitude": -71.104213
+  },
+  {
+    "station": "place-longw",
+    "stop_name": "Longwood",
+    "address": "30 Chapel St, Brookline, MA 02446",
+    "latitude": 42.341702,
+    "longitude": -71.109956
+  },
+  {
+    "station": "place-bvmnl",
+    "stop_name": "Brookline Village",
+    "address": "31 Station St, Brookline, MA 02445",
+    "latitude": 42.332608,
+    "longitude": -71.116857
+  },
+  {
+    "station": "place-brkhl",
+    "stop_name": "Brookline Hills",
+    "address": "Tappan St and Cypress St, Brookline, MA 02445",
+    "latitude": 42.331316,
+    "longitude": -71.126683
+  },
+  {
+    "station": "place-bcnfd",
+    "stop_name": "Beaconsfield",
+    "address": "124 Beaconsfield Rd, Brookline, MA 02445",
+    "latitude": 42.335765,
+    "longitude": -71.140455
+  },
+  {
+    "station": "place-rsmnl",
+    "stop_name": "Reservoir",
+    "address": "401 Chestnut Hill Ave, Brookline, MA 02445",
+    "latitude": 42.335088,
+    "longitude": -71.148758
+  },
+  {
+    "station": "place-chhil",
+    "stop_name": "Chestnut Hill",
+    "address": "Hammond St and Chestnut Hill Rd, Newton, MA 02467",
+    "latitude": 42.326753,
+    "longitude": -71.164699
+  },
+  {
+    "station": "place-newto",
+    "stop_name": "Newton Centre",
+    "address": "72 Union St, Newton, MA 02459",
+    "latitude": 42.329443,
+    "longitude": -71.192414
+  },
+  {
+    "station": "place-newtn",
+    "stop_name": "Newton Highlands",
+    "address": "60 Station Ave, Newton, MA 02461",
+    "latitude": 42.322381,
+    "longitude": -71.205509
+  },
+  {
+    "station": "place-eliot",
+    "stop_name": "Eliot",
+    "address": "248 Lincoln St, Newton, MA 02461",
+    "latitude": 42.319045,
+    "longitude": -71.216684
+  },
+  {
+    "station": "place-waban",
+    "stop_name": "Waban",
+    "address": "Beacon St and Waban Sq, Newton, MA 02468",
+    "latitude": 42.325845,
+    "longitude": -71.230609
+  },
+  {
+    "station": "place-woodl",
+    "stop_name": "Woodland",
+    "address": "1940 Washington St, Newton, MA 02466",
+    "latitude": 42.332902,
+    "longitude": -71.243362
+  },
+  {
+    "station": "place-river",
+    "stop_name": "Riverside",
+    "address": "367 Grove St, Newton, MA 02466",
+    "latitude": 42.337352,
+    "longitude": -71.252685
+  },
+  {
+    "station": "place-prmnl",
+    "stop_name": "Prudential",
+    "address": "Huntington Ave and Belvidere St, Boston, MA 02199",
+    "latitude": 42.34557,
+    "longitude": -71.081696
+  },
+  {
+    "station": "place-symcl",
+    "stop_name": "Symphony",
+    "address": "Massachusetts Ave and Huntington Ave, Boston, MA",
+    "latitude": 42.342687,
+    "longitude": -71.085056
+  },
+  {
+    "station": "place-nuniv",
+    "stop_name": "Northeastern University",
+    "address": "Huntington Ave and Opera Pl, Boston, MA 02115",
+    "latitude": 42.340401,
+    "longitude": -71.088806
+  },
+  {
+    "station": "place-mfa",
+    "stop_name": "Museum of Fine Arts",
+    "address": "Huntington Ave and Ruggles St, Boston, MA",
+    "latitude": 42.337711,
+    "longitude": -71.095512
+  },
+  {
+    "station": "place-lngmd",
+    "stop_name": "Longwood Medical Area",
+    "address": "Huntington Ave and Longwood Ave, Boston, MA 02115",
+    "latitude": 42.33596,
+    "longitude": -71.100052
+  },
+  {
+    "station": "place-brmnl",
+    "stop_name": "Brigham Circle",
+    "address": "Huntington Ave and Francis St, Boston, MA",
+    "latitude": 42.334229,
+    "longitude": -71.104609
+  },
+  {
+    "station": "place-fenwd",
+    "stop_name": "Fenwood Road",
+    "address": "Huntington Ave and Fenwood Rd, Boston, MA",
+    "latitude": 42.333706,
+    "longitude": -71.105728
+  },
+  {
+    "station": "place-mispk",
+    "stop_name": "Mission Park",
+    "address": "Huntington Ave and Mission Park Dr, Boston, MA 02115",
+    "latitude": 42.333195,
+    "longitude": -71.109756
+  },
+  {
+    "station": "place-rvrwy",
+    "stop_name": "Riverway",
+    "address": "South Huntington Ave and Huntington Ave, Boston, MA",
+    "latitude": 42.331684,
+    "longitude": -71.111931
+  },
+  {
+    "station": "place-bckhl",
+    "stop_name": "Back of the Hill",
+    "address": "100 South Huntington Ave, Boston, MA 02130",
+    "latitude": 42.330139,
+    "longitude": -71.111313
+  },
+  {
+    "station": "place-hsmnl",
+    "stop_name": "Heath Street",
+    "address": "Heath St and South Huntington Ave, Boston, MA",
+    "latitude": 42.328316,
+    "longitude": -71.110252
+  },
+  {
+    "station": "place-cedgr",
+    "stop_name": "Cedar Grove",
+    "address": "Fellsway St and Milton St, Dorchester, MA 02124",
+    "latitude": 42.279629,
+    "longitude": -71.060394
+  },
+  {
+    "station": "place-butlr",
+    "stop_name": "Butler",
+    "address": "Butler St and Branchfield St, Dorchester, MA 02124",
+    "latitude": 42.272429,
+    "longitude": -71.062519
+  },
+  {
+    "station": "place-miltt",
+    "stop_name": "Milton",
+    "address": "1 Adams St, Milton, MA 02186",
+    "latitude": 42.270349,
+    "longitude": -71.067266
+  },
+  {
+    "station": "place-cenav",
+    "stop_name": "Central Avenue",
+    "address": "23 Central Ave, Milton, MA 02186",
+    "latitude": 42.270027,
+    "longitude": -71.073444
+  },
+  {
+    "station": "place-valrd",
+    "stop_name": "Valley Road",
+    "address": "291 Valley Rd, Milton, MA 02186",
+    "latitude": 42.268347,
+    "longitude": -71.081343
+  },
+  {
+    "station": "place-capst",
+    "stop_name": "Capen Street",
+    "address": "50 Capen St, Milton, MA 02186",
+    "latitude": 42.267563,
+    "longitude": -71.087338
+  },
+  {
+    "station": "place-matt",
+    "stop_name": "Mattapan",
+    "address": "500 River St, Boston, MA 02126",
+    "latitude": 42.26762,
+    "longitude": -71.092486
+  },
+  {
+    "station": "place-conrd",
+    "stop_name": "Silver Line Way",
+    "address": null,
+    "latitude": 42.347154,
+    "longitude": -71.038385
+  },
+  {
+    "station": "place-wtcst",
+    "stop_name": "World Trade Center",
+    "address": "Congress St and World Trade Center Ave, Boston, MA",
+    "latitude": 42.34863,
+    "longitude": -71.04246
+  },
+  {
+    "station": "place-crtst",
+    "stop_name": "Courthouse",
+    "address": "Seaport Blvd and Pittsburg St, Boston, MA",
+    "latitude": 42.35245,
+    "longitude": -71.04685
+  },
+  {
+    "station": "place-DB-0095",
+    "stop_name": "Readville",
+    "address": "1800 Hyde Park Ave, Hyde Park, MA 02136",
+    "latitude": 42.238405,
+    "longitude": -71.133246
+  },
+  {
+    "station": "place-DB-2205",
+    "stop_name": "Fairmount",
+    "address": "Fairmount Ave and Truman Hwy, Hyde Park, MA 02136",
+    "latitude": 42.253638,
+    "longitude": -71.11927
+  },
+  {
+    "station": "place-DB-2222",
+    "stop_name": "Blue Hill Avenue",
+    "address": "Blue Hill Ave or Cummins Hwy at Woodhaven St, Mattapan, MA 02126",
+    "latitude": 42.271466,
+    "longitude": -71.095782
+  },
+  {
+    "station": "place-DB-2230",
+    "stop_name": "Morton Street",
+    "address": "865 Morton St, Mattapan, MA 02126",
+    "latitude": 42.280994,
+    "longitude": -71.085475
+  },
+  {
+    "station": "place-DB-2240",
+    "stop_name": "Talbot Avenue",
+    "address": "210 Talbot Ave, Boston, MA 02124",
+    "latitude": 42.292246,
+    "longitude": -71.07814
+  },
+  {
+    "station": "place-DB-2249",
+    "stop_name": "Four Corners/Geneva",
+    "address": "171 Geneva Ave, Boston, MA 02121",
+    "latitude": 42.305037,
+    "longitude": -71.076833
+  },
+  {
+    "station": "place-DB-2258",
+    "stop_name": "Uphams Corner",
+    "address": "691 Dudley St, Dorchester, MA 02125",
+    "latitude": 42.319125,
+    "longitude": -71.068627
+  },
+  {
+    "station": "place-DB-2265",
+    "stop_name": "Newmarket",
+    "address": "1070 Massachusetts Ave, Boston, MA 02118",
+    "latitude": 42.327415,
+    "longitude": -71.065674
+  },
+  {
+    "station": "place-WML-0442",
+    "stop_name": "Worcester",
+    "address": "2 Washington Sq, Worcester, MA 01608",
+    "latitude": 42.261835,
+    "longitude": -71.791806
+  },
+  {
+    "station": "place-WML-0364",
+    "stop_name": "Grafton",
+    "address": "1 Pine St, North Grafton, MA 01536-1856",
+    "latitude": 42.2466,
+    "longitude": -71.685325
+  },
+  {
+    "station": "place-WML-0340",
+    "stop_name": "Westborough",
+    "address": "Smith Pkwy and Fisher St, Westborough, MA 01581",
+    "latitude": 42.269644,
+    "longitude": -71.647076
+  },
+  {
+    "station": "place-WML-0274",
+    "stop_name": "Southborough",
+    "address": "87 Southville Rd, Southborough, MA 01772",
+    "latitude": 42.267024,
+    "longitude": -71.524371
+  },
+  {
+    "station": "place-WML-0214",
+    "stop_name": "Framingham",
+    "address": "417 Waverly St, Framingham, MA 01702",
+    "latitude": 42.276108,
+    "longitude": -71.420055
+  },
+  {
+    "station": "place-WML-0199",
+    "stop_name": "West Natick",
+    "address": "249 West Central St, Natick, MA 01760",
+    "latitude": 42.283064,
+    "longitude": -71.391797
+  },
+  {
+    "station": "place-WML-0177",
+    "stop_name": "Natick Center",
+    "address": "1 Walnut St, Natick, MA 01760",
+    "latitude": 42.285719,
+    "longitude": -71.347133
+  },
+  {
+    "station": "place-WML-0147",
+    "stop_name": "Wellesley Square",
+    "address": "1 Grove St, Wellesley, MA 02482",
+    "latitude": 42.297526,
+    "longitude": -71.294173
+  },
+  {
+    "station": "place-WML-0135",
+    "stop_name": "Wellesley Hills",
+    "address": "341 Washington St, Wellesley, MA 02481",
+    "latitude": 42.31037,
+    "longitude": -71.277044
+  },
+  {
+    "station": "place-WML-0125",
+    "stop_name": "Wellesley Farms",
+    "address": "90 Croton St, Wellesley, MA 02481",
+    "latitude": 42.323608,
+    "longitude": -71.272288
+  },
+  {
+    "station": "place-WML-0102",
+    "stop_name": "Auburndale",
+    "address": "Auburn St and Woodland Rd, Newton, MA 02466",
+    "latitude": 42.345833,
+    "longitude": -71.250373
+  },
+  {
+    "station": "place-WML-0091",
+    "stop_name": "West Newton",
+    "address": "1395 Washington St, Newton, MA 02465",
+    "latitude": 42.347878,
+    "longitude": -71.230528
+  },
+  {
+    "station": "place-WML-0081",
+    "stop_name": "Newtonville",
+    "address": "770 Washington St, Newton, MA 02460",
+    "latitude": 42.351702,
+    "longitude": -71.205408
+  },
+  {
+    "station": "place-WML-0035",
+    "stop_name": "Boston Landing",
+    "address": "100 Arthur St, Boston, MA 02134",
+    "latitude": 42.357293,
+    "longitude": -71.139883
+  },
+  {
+    "station": "place-WML-0025",
+    "stop_name": "Lansdowne",
+    "address": "25 David Ortiz Dr, Boston, MA 02215",
+    "latitude": 42.347581,
+    "longitude": -71.099974
+  },
+  {
+    "station": "place-GRB-0276",
+    "stop_name": "Greenbush",
+    "address": "247 Old Driftway, Scituate, MA 02066",
+    "latitude": 42.178776,
+    "longitude": -70.746641
+  },
+  {
+    "station": "place-GRB-0233",
+    "stop_name": "North Scituate",
+    "address": "777 Country Way, Scituate, MA 02066",
+    "latitude": 42.219528,
+    "longitude": -70.788602
+  },
+  {
+    "station": "place-GRB-0199",
+    "stop_name": "Cohasset",
+    "address": "110 Chief Justice Cushing Hwy, Cohasset, MA 02025",
+    "latitude": 42.24421,
+    "longitude": -70.837529
+  },
+  {
+    "station": "place-GRB-0183",
+    "stop_name": "Nantasket Junction",
+    "address": "190 Summer St, Hingham, MA 02043",
+    "latitude": 42.244959,
+    "longitude": -70.869205
+  },
+  {
+    "station": "place-GRB-0162",
+    "stop_name": "West Hingham",
+    "address": "20 Fort Hill Rd, Hingham, MA 02043",
+    "latitude": 42.235838,
+    "longitude": -70.902708
+  },
+  {
+    "station": "place-GRB-0146",
+    "stop_name": "East Weymouth",
+    "address": "1590 Commercial St, East Weymouth, MA 02189",
+    "latitude": 42.2191,
+    "longitude": -70.9214
+  },
+  {
+    "station": "place-GRB-0118",
+    "stop_name": "Weymouth Landing/East Braintree",
+    "address": "121 Commercial St, Weymouth, MA 02184",
+    "latitude": 42.221503,
+    "longitude": -70.968152
+  },
+  {
+    "station": "place-KB-0351",
+    "stop_name": "Kingston",
+    "address": "134 Marion Dr, Kingston, MA 02364",
+    "latitude": 41.97762,
+    "longitude": -70.721709
+  },
+  {
+    "station": "place-PB-0281",
+    "stop_name": "Halifax",
+    "address": "6 Garden Rd, Halifax, MA 02338",
+    "latitude": 42.014739,
+    "longitude": -70.824263
+  },
+  {
+    "station": "place-PB-0245",
+    "stop_name": "Hanson",
+    "address": "1070 Main St, Hanson, MA 02341",
+    "latitude": 42.043967,
+    "longitude": -70.882438
+  },
+  {
+    "station": "place-PB-0212",
+    "stop_name": "Whitman",
+    "address": "383 South Ave, Whitman, MA 02382",
+    "latitude": 42.082749,
+    "longitude": -70.923411
+  },
+  {
+    "station": "place-PB-0194",
+    "stop_name": "Abington",
+    "address": "231 Centre Ave, Abington, MA 02351",
+    "latitude": 42.107156,
+    "longitude": -70.934405
+  },
+  {
+    "station": "place-PB-0158",
+    "stop_name": "South Weymouth",
+    "address": "89 Trotter Rd, Weymouth, MA 02190",
+    "latitude": 42.155025,
+    "longitude": -70.953302
+  },
+  {
+    "station": "place-MM-0356",
+    "stop_name": "Middleborough/Lakeville",
+    "address": "125 Commercial Dr, Lakeville, MA 02347",
+    "latitude": 41.87821,
+    "longitude": -70.918444
+  },
+  {
+    "station": "place-MM-0277",
+    "stop_name": "Bridgewater",
+    "address": "85 Burrill Ave, Bridgewater, MA 02324",
+    "latitude": 41.984916,
+    "longitude": -70.96537
+  },
+  {
+    "station": "place-MM-0219",
+    "stop_name": "Campello",
+    "address": "30 Riverside Ave, Brockton, MA 02301",
+    "latitude": 42.060951,
+    "longitude": -71.011004
+  },
+  {
+    "station": "place-MM-0200",
+    "stop_name": "Brockton",
+    "address": "7 Commercial St, Brockton, MA 02302",
+    "latitude": 42.084659,
+    "longitude": -71.016534
+  },
+  {
+    "station": "place-MM-0186",
+    "stop_name": "Montello",
+    "address": "150 Spark St, Brockton, MA 02302",
+    "latitude": 42.106555,
+    "longitude": -71.022001
+  },
+  {
+    "station": "place-MM-0150",
+    "stop_name": "Holbrook/Randolph",
+    "address": "Union St and Center St, Randolph, MA 02368",
+    "latitude": 42.156343,
+    "longitude": -71.027371
+  },
+  {
+    "station": "place-FB-0118",
+    "stop_name": "Dedham Corporate Center",
+    "address": "125 Allied Dr, Dedham, MA 02026",
+    "latitude": 42.227079,
+    "longitude": -71.174254
+  },
+  {
+    "station": "place-NEC-1851",
+    "stop_name": "Providence",
+    "address": "100 Gaspee St, Providence, RI 02903",
+    "latitude": 41.829293,
+    "longitude": -71.413301
+  },
+  {
+    "station": "place-NEC-1969",
+    "stop_name": "Attleboro",
+    "address": "133 South Main St, Attleboro, MA 02703",
+    "latitude": 41.940739,
+    "longitude": -71.285094
+  },
+  {
+    "station": "place-NEC-2040",
+    "stop_name": "Mansfield",
+    "address": "1 Crocker St, Mansfield, MA 02048",
+    "latitude": 42.032787,
+    "longitude": -71.219917
+  },
+  {
+    "station": "place-FS-0049",
+    "stop_name": "Foxboro",
+    "address": "Gillette Stadium near Lots 3 and 4, Foxborough, MA 02035",
+    "latitude": 42.0951,
+    "longitude": -71.26151
+  },
+  {
+    "station": "place-FB-0303",
+    "stop_name": "Forge Park/495",
+    "address": "1000 W Central St, Franklin, MA 02038",
+    "latitude": 42.089941,
+    "longitude": -71.43902
+  },
+  {
+    "station": "place-FB-0275",
+    "stop_name": "Franklin",
+    "address": "75 Depot St, Franklin, MA 02038",
+    "latitude": 42.083238,
+    "longitude": -71.396102
+  },
+  {
+    "station": "place-FB-0230",
+    "stop_name": "Norfolk",
+    "address": "9 Rockwood Rd, Norfolk, MA 02056",
+    "latitude": 42.120694,
+    "longitude": -71.325217
+  },
+  {
+    "station": "place-FB-0191",
+    "stop_name": "Walpole",
+    "address": "275 West St, Walpole, MA 02081",
+    "latitude": 42.145477,
+    "longitude": -71.25779
+  },
+  {
+    "station": "place-FB-0166",
+    "stop_name": "Windsor Gardens",
+    "address": "Buckminster Dr and Engamore Ln, Norwood, MA 02062",
+    "latitude": 42.172127,
+    "longitude": -71.219366
+  },
+  {
+    "station": "place-FB-0148",
+    "stop_name": "Norwood Central",
+    "address": "164 Broadway, Norwood, MA 02062",
+    "latitude": 42.188775,
+    "longitude": -71.199665
+  },
+  {
+    "station": "place-FB-0143",
+    "stop_name": "Norwood Depot",
+    "address": "14 Hill St, Norwood, MA 02062",
+    "latitude": 42.196857,
+    "longitude": -71.196688
+  },
+  {
+    "station": "place-FB-0125",
+    "stop_name": "Islington",
+    "address": "48 Carroll Ave, Westwood, MA 02090",
+    "latitude": 42.22105,
+    "longitude": -71.183961
+  },
+  {
+    "station": "place-FB-0109",
+    "stop_name": "Endicott",
+    "address": "186 Grant Ave, Dedham, MA 02026",
+    "latitude": 42.233249,
+    "longitude": -71.158647
+  },
+  {
+    "station": "place-NEC-2203",
+    "stop_name": "Hyde Park",
+    "address": "1 Pingree St, Hyde Park, MA 02136",
+    "latitude": 42.25503,
+    "longitude": -71.125526
+  },
+  {
+    "station": "place-NB-0137",
+    "stop_name": "Needham Heights",
+    "address": "95 Avery Sq, Needham, MA 02494",
+    "latitude": 42.293444,
+    "longitude": -71.236027
+  },
+  {
+    "station": "place-NB-0127",
+    "stop_name": "Needham Center",
+    "address": "Great Plain Ave and Eaton Sq, Needham, MA 02492",
+    "latitude": 42.280775,
+    "longitude": -71.237686
+  },
+  {
+    "station": "place-NB-0120",
+    "stop_name": "Needham Junction",
+    "address": "51 Junction St, Needham, MA 02492",
+    "latitude": 42.273187,
+    "longitude": -71.235559
+  },
+  {
+    "station": "place-NB-0109",
+    "stop_name": "Hersey",
+    "address": "Great Plain Ave and Broad Meadow Rd, Needham, MA 02492",
+    "latitude": 42.275648,
+    "longitude": -71.215528
+  },
+  {
+    "station": "place-NB-0080",
+    "stop_name": "West Roxbury",
+    "address": "450 Lagrange St, West Roxbury, MA 02132",
+    "latitude": 42.281358,
+    "longitude": -71.160065
+  },
+  {
+    "station": "place-NB-0076",
+    "stop_name": "Highland",
+    "address": "Corey St and Hastings St, West Roxbury, MA 02132",
+    "latitude": 42.284969,
+    "longitude": -71.153937
+  },
+  {
+    "station": "place-NB-0072",
+    "stop_name": "Bellevue",
+    "address": "35 Colbert St, West Roxbury, MA 02132",
+    "latitude": 42.286588,
+    "longitude": -71.145557
+  },
+  {
+    "station": "place-NB-0064",
+    "stop_name": "Roslindale Village",
+    "address": "1 Belgrade Ave, Roslindale, MA 02131",
+    "latitude": 42.287442,
+    "longitude": -71.130283
+  },
+  {
+    "station": "place-NEC-1659",
+    "stop_name": "Wickford Junction",
+    "address": "1011 Ten Rod Rd, North Kingstown, RI",
+    "latitude": 41.581289,
+    "longitude": -71.491147
+  },
+  {
+    "station": "place-NEC-1768",
+    "stop_name": "TF Green Airport",
+    "address": "700 Jefferson Blvd, Warwick, RI 02886",
+    "latitude": 41.726599,
+    "longitude": -71.442453
+  },
+  {
+    "station": "place-NEC-1891",
+    "stop_name": "Pawtucket/Central Falls",
+    "address": "300 Pine St, Pawtucket, RI 02860",
+    "latitude": 41.878762,
+    "longitude": -71.392
+  },
+  {
+    "station": "place-NEC-2108",
+    "stop_name": "Sharon",
+    "address": "1 Upland Rd, Sharon, MA 02067",
+    "latitude": 42.124553,
+    "longitude": -71.184468
+  },
+  {
+    "station": "place-SB-0189",
+    "stop_name": "Stoughton",
+    "address": "45 Wyman St, Stoughton, MA 02072",
+    "latitude": 42.124084,
+    "longitude": -71.103627
+  },
+  {
+    "station": "place-SB-0156",
+    "stop_name": "Canton Center",
+    "address": "710 Washington St, Canton, MA 02021",
+    "latitude": 42.157095,
+    "longitude": -71.14628
+  },
+  {
+    "station": "place-NEC-2139",
+    "stop_name": "Canton Junction",
+    "address": "Beaumont St and Sherman St, Canton, MA 02021",
+    "latitude": 42.163204,
+    "longitude": -71.15376
+  },
+  {
+    "station": "place-NEC-2173",
+    "stop_name": "Route 128",
+    "address": "50 University Ave, Westwood, MA 02090",
+    "latitude": 42.210308,
+    "longitude": -71.147134
+  },
+  {
+    "station": "place-GB-0353",
+    "stop_name": "Rockport",
+    "address": "17 Railroad Ave, Rockport, MA 01966",
+    "latitude": 42.655491,
+    "longitude": -70.627055
+  },
+  {
+    "station": "place-GB-0316",
+    "stop_name": "Gloucester",
+    "address": "75 Railroad Ave, Gloucester, MA 01930",
+    "latitude": 42.616799,
+    "longitude": -70.668345
+  },
+  {
+    "station": "place-GB-0296",
+    "stop_name": "West Gloucester",
+    "address": "290 Essex Ave, Gloucester, MA 01930",
+    "latitude": 42.611933,
+    "longitude": -70.705417
+  },
+  {
+    "station": "place-GB-0254",
+    "stop_name": "Manchester",
+    "address": "40 Beach St, Manchester, MA 01944",
+    "latitude": 42.573687,
+    "longitude": -70.77009
+  },
+  {
+    "station": "place-GB-0229",
+    "stop_name": "Beverly Farms",
+    "address": "1 Oak St, Beverly, MA 01915",
+    "latitude": 42.561651,
+    "longitude": -70.811405
+  },
+  {
+    "station": "place-GB-0198",
+    "stop_name": "Montserrat",
+    "address": "180 Essex St, Beverly, MA 01915",
+    "latitude": 42.562171,
+    "longitude": -70.869254
+  },
+  {
+    "station": "place-ER-0362",
+    "stop_name": "Newburyport",
+    "address": "25 Boston Way, Newburyport, MA 01950",
+    "latitude": 42.797837,
+    "longitude": -70.87797
+  },
+  {
+    "station": "place-ER-0312",
+    "stop_name": "Rowley",
+    "address": "70 Railroad Ave, Rowley, MA 01969",
+    "latitude": 42.726845,
+    "longitude": -70.859034
+  },
+  {
+    "station": "place-ER-0276",
+    "stop_name": "Ipswich",
+    "address": "4 Peatfield St, Ipswich, MA 01938",
+    "latitude": 42.676921,
+    "longitude": -70.840589
+  },
+  {
+    "station": "place-ER-0227",
+    "stop_name": "Hamilton/Wenham",
+    "address": "Bay Rd and Walnut Rd, Hamilton, MA 01982",
+    "latitude": 42.609212,
+    "longitude": -70.874801
+  },
+  {
+    "station": "place-ER-0208",
+    "stop_name": "North Beverly",
+    "address": "Enon St and Dodge St, Beverly, MA 01915",
+    "latitude": 42.583779,
+    "longitude": -70.883851
+  },
+  {
+    "station": "place-ER-0183",
+    "stop_name": "Beverly",
+    "address": "10 Park St, Beverly, MA 01915",
+    "latitude": 42.547276,
+    "longitude": -70.885432
+  },
+  {
+    "station": "place-ER-0168",
+    "stop_name": "Salem",
+    "address": "252 Bridge St, Salem, MA 01970",
+    "latitude": 42.524792,
+    "longitude": -70.895876
+  },
+  {
+    "station": "place-ER-0128",
+    "stop_name": "Swampscott",
+    "address": "Burrill St and Railroad Ave, Swampscott, MA 01907",
+    "latitude": 42.473743,
+    "longitude": -70.922537
+  },
+  {
+    "station": "place-ER-0115",
+    "stop_name": "Lynn",
+    "address": "325 Broad St, Lynn, MA 01901",
+    "latitude": 42.462953,
+    "longitude": -70.945421
+  },
+  {
+    "station": "place-ER-0099",
+    "stop_name": "River Works",
+    "address": "1000 Western Ave, Lynn, MA 01910 (General Electric employees only)",
+    "latitude": 42.449927,
+    "longitude": -70.969848
+  },
+  {
+    "station": "place-chels",
+    "stop_name": "Chelsea",
+    "address": "174 Everett Ave, Chelsea, MA 02150",
+    "latitude": 42.397024,
+    "longitude": -71.041314
+  },
+  {
+    "station": "place-FR-3338",
+    "stop_name": "Wachusett",
+    "address": "55 Authority Dr, Fitchburg, MA 01420",
+    "latitude": 42.553477,
+    "longitude": -71.848488
+  },
+  {
+    "station": "place-FR-0494",
+    "stop_name": "Fitchburg",
+    "address": "150 Main St, Fitchburg, MA 01420",
+    "latitude": 42.58072,
+    "longitude": -71.792611
+  },
+  {
+    "station": "place-FR-0451",
+    "stop_name": "North Leominster",
+    "address": "44 Nashua St, Leominster, MA 01453",
+    "latitude": 42.539017,
+    "longitude": -71.739186
+  },
+  {
+    "station": "place-FR-0394",
+    "stop_name": "Shirley",
+    "address": "Ayer Rd and Phoenix St, Shirley, MA 01464",
+    "latitude": 42.545089,
+    "longitude": -71.648004
+  },
+  {
+    "station": "place-FR-0361",
+    "stop_name": "Ayer",
+    "address": "70 Main St, Ayer, MA 01432",
+    "latitude": 42.559074,
+    "longitude": -71.588476
+  },
+  {
+    "station": "place-FR-0301",
+    "stop_name": "Littleton/Route 495",
+    "address": "Grimes Ln and Foster St, Littleton, MA 01460",
+    "latitude": 42.519236,
+    "longitude": -71.502643
+  },
+  {
+    "station": "place-FR-0253",
+    "stop_name": "South Acton",
+    "address": "4 Central St, Acton, MA 01720",
+    "latitude": 42.460375,
+    "longitude": -71.457744
+  },
+  {
+    "station": "place-FR-0219",
+    "stop_name": "West Concord",
+    "address": "Commonwealth Ave and Main St, West Concord, MA 01742",
+    "latitude": 42.457043,
+    "longitude": -71.392892
+  },
+  {
+    "station": "place-FR-0201",
+    "stop_name": "Concord",
+    "address": "90 Thoreau St, Concord, MA 01742",
+    "latitude": 42.456565,
+    "longitude": -71.357677
+  },
+  {
+    "station": "place-FR-0167",
+    "stop_name": "Lincoln",
+    "address": "160 Lincoln Rd, Lincoln, MA 01773",
+    "latitude": 42.413641,
+    "longitude": -71.325512
+  },
+  {
+    "station": "place-FR-0132",
+    "stop_name": "Kendal Green",
+    "address": "198 Church St, Weston, MA",
+    "latitude": 42.37897,
+    "longitude": -71.282411
+  },
+  {
+    "station": "place-FR-0115",
+    "stop_name": "Brandeis/Roberts",
+    "address": "1 Sawyer Rd, Waltham, MA 02453",
+    "latitude": 42.361898,
+    "longitude": -71.260065
+  },
+  {
+    "station": "place-FR-0098",
+    "stop_name": "Waltham",
+    "address": "75 Carter St, Waltham, MA 02453",
+    "latitude": 42.374296,
+    "longitude": -71.235615
+  },
+  {
+    "station": "place-FR-0074",
+    "stop_name": "Waverley",
+    "address": "525 Trapelo Rd, Belmont, MA 02478",
+    "latitude": 42.3876,
+    "longitude": -71.190744
+  },
+  {
+    "station": "place-FR-0064",
+    "stop_name": "Belmont",
+    "address": "Common St and Concord Ave, Belmont, MA 02478",
+    "latitude": 42.395896,
+    "longitude": -71.17619
+  },
+  {
+    "station": "place-WR-0329",
+    "stop_name": "Haverhill",
+    "address": "1 Washington Ave, Haverhill, MA 01832",
+    "latitude": 42.773474,
+    "longitude": -71.086237
+  },
+  {
+    "station": "place-WR-0325",
+    "stop_name": "Bradford",
+    "address": "10 Railroad Ave, Bradford, MA 01835",
+    "latitude": 42.766912,
+    "longitude": -71.088411
+  },
+  {
+    "station": "place-WR-0264",
+    "stop_name": "Lawrence",
+    "address": "S Union St and Merrimack St, Lawrence, MA 01843",
+    "latitude": 42.701806,
+    "longitude": -71.15198
+  },
+  {
+    "station": "place-WR-0228",
+    "stop_name": "Andover",
+    "address": "17 Railroad St, Andover, MA 01810",
+    "latitude": 42.658336,
+    "longitude": -71.144502
+  },
+  {
+    "station": "place-WR-0205",
+    "stop_name": "Ballardvale",
+    "address": "195 Andover St, Andover, MA 01810",
+    "latitude": 42.627356,
+    "longitude": -71.159962
+  },
+  {
+    "station": "place-WR-0120",
+    "stop_name": "Reading",
+    "address": "35 Lincoln St, Reading, MA 01867",
+    "latitude": 42.52221,
+    "longitude": -71.108294
+  },
+  {
+    "station": "place-NHRML-0127",
+    "stop_name": "Anderson/Woburn",
+    "address": "100 Atlantic Ave, Woburn, MA 01801",
+    "latitude": 42.516987,
+    "longitude": -71.144475
+  },
+  {
+    "station": "place-WR-0163",
+    "stop_name": "North Wilmington",
+    "address": "370 Middlesex Ave, Wilmington, MA 01887",
+    "latitude": 42.569661,
+    "longitude": -71.159696
+  },
+  {
+    "station": "place-WR-0099",
+    "stop_name": "Wakefield",
+    "address": "225 North Ave, Wakefield, MA 01880",
+    "latitude": 42.502126,
+    "longitude": -71.075566
+  },
+  {
+    "station": "place-WR-0085",
+    "stop_name": "Greenwood",
+    "address": "907 Main St, Wakefield, MA 01880",
+    "latitude": 42.483005,
+    "longitude": -71.067247
+  },
+  {
+    "station": "place-WR-0075",
+    "stop_name": "Melrose Highlands",
+    "address": "497 Franklin St, Melrose, MA 02176",
+    "latitude": 42.469464,
+    "longitude": -71.068297
+  },
+  {
+    "station": "place-WR-0067",
+    "stop_name": "Melrose/Cedar Park",
+    "address": "Cedar Park and West Emerson St, Melrose, MA 02176",
+    "latitude": 42.458768,
+    "longitude": -71.069789
+  },
+  {
+    "station": "place-WR-0062",
+    "stop_name": "Wyoming Hill",
+    "address": "40 West Wyoming Ave, Melrose, MA 02176",
+    "latitude": 42.451731,
+    "longitude": -71.069379
+  },
+  {
+    "station": "place-NHRML-0254",
+    "stop_name": "Lowell",
+    "address": "101 Thorndike St, Lowell, MA 01852",
+    "latitude": 42.63535,
+    "longitude": -71.314543
+  },
+  {
+    "station": "place-NHRML-0218",
+    "stop_name": "North Billerica",
+    "address": "Ruggles St and Station St, North Billerica, MA 01862",
+    "latitude": 42.593248,
+    "longitude": -71.280995
+  },
+  {
+    "station": "place-NHRML-0152",
+    "stop_name": "Wilmington",
+    "address": "405 Main St, Wilmington, MA 01887",
+    "latitude": 42.546624,
+    "longitude": -71.174334
+  },
+  {
+    "station": "place-NHRML-0073",
+    "stop_name": "Wedgemere",
+    "address": "25 Mystic Valley Pkwy, Winchester, MA 01890",
+    "latitude": 42.444948,
+    "longitude": -71.140169
+  },
+  {
+    "station": "place-NHRML-0055",
+    "stop_name": "West Medford",
+    "address": "481 High St, Medford, MA 02155",
+    "latitude": 42.421776,
+    "longitude": -71.133342
+  }
+]

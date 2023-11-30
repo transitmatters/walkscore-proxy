@@ -6,42 +6,65 @@ export AWS_REGION=us-east-1
 export AWS_DEFAULT_REGION=us-east-1
 export AWS_PAGER=""
 
-if [[ -z "$DD_API_KEY" ]]; then
-    echo "Must provide DD_API_KEY in environment to deploy" 1>&2
+# Ensure required secrets are set
+if [[ -z "$DD_API_KEY" || -z "$WALKSCORE_API_KEY" ]]; then
+    echo "Must provide DD_API_KEY and WALKSCORE_API_KEY in environment to deploy" 1>&2
     exit 1
 fi
 
-STACK_NAME="walkscore-proxy-stack"
+# Setup environment stuff
+CHALICE_STAGE="production"
+BACKEND_ZONE="labs.transitmatters.org"
+BACKEND_CERT_ARN="$TM_LABS_WILDCARD_CERT_ARN"
+BACKEND_DOMAIN_PREFIX="walkscore."
 
-timestamp=$(date +%s)
-zip_name="deployment-$timestamp.zip"
+# Fetch repository tags
+git fetch --tags
 
 # Identify the version and commit of the current deploy
-GIT_VERSION=`git describe --tags --always`
+GIT_VERSION=`git describe --always`
 GIT_SHA=`git rev-parse HEAD`
 echo "Deploying version $GIT_VERSION | $GIT_SHA"
 
 # Adding some datadog tags to get better data
 DD_TAGS="git.commit.sha:$GIT_SHA,git.repository_url:github.com/transitmatters/walkscore-proxy"
 
-poetry export --output requirements.txt --without-hashes
-pushd server/
-pip3 install -r ../requirements.txt --only-binary=:all: --platform manylinux2014_x86_64 --implementation cp --abi cp311 --target ./package --upgrade
+BACKEND_BUCKET=walkscore-proxy$ENV_SUFFIX
+BACKEND_HOSTNAME=$BACKEND_DOMAIN_PREFIX$BACKEND_ZONE # Must match in .chalice/config.json!
+CF_STACK_NAME=walkscore-proxy$ENV_SUFFIX
 
-# Reduce size of deployment https://stackoverflow.com/a/69355796
-find ./package -type f -name '*.py[co]' -delete -o -type d -name __pycache__ -delete
+configurationArray=("$CHALICE_STAGE" "$BACKEND_BUCKET" "$CF_STACK_NAME" "$BACKEND_CERT_ARN")
+for i in ${!configurationArray[@]}; do
+    if [ -z "${configurationArray[$i]}" ]; then
+        echo "Failed: index [$i] in configuration array is null or empty";
+        exit;
+    fi
+done
 
-pushd ./package && zip -r ../../$zip_name . && popd
-pushd .. && zip -gr $zip_name resources/* && popd
-zip -gr ../$zip_name *.py
-popd
+echo "Starting $CHALICE_STAGE deployment"
+echo "Backend bucket: $BACKEND_BUCKET"
+echo "Backend hostname: $BACKEND_HOSTNAME"
+echo "CloudFormation stack name: $CF_STACK_NAME"
 
-aws s3 cp ./$zip_name s3://tm-walkscore-proxy-deploy/$zip_name
+pushd server/ > /dev/null
+poetry export --without-hashes --output requirements.txt
+poetry run chalice package --stage $CHALICE_STAGE --merge-template cloudformation.json cfn/
+aws cloudformation package --template-file cfn/sam.json --s3-bucket $BACKEND_BUCKET --output-template-file cfn/packaged.yaml
+aws cloudformation deploy --template-file cfn/packaged.yaml --stack-name $CF_STACK_NAME --capabilities CAPABILITY_IAM --no-fail-on-empty-changeset --parameter-overrides \
+    TMBackendCertArn=$BACKEND_CERT_ARN \
+    TMBackendHostname=$BACKEND_HOSTNAME \
+    TMBackendZone=$BACKEND_ZONE \
+    WalkscoreApiKey=$WALKSCORE_API_KEY \
+    DDApiKey=$DD_API_KEY \
+    GitVersion=$GIT_VERSION \
+    DDTags=$DD_TAGS
 
-aws cloudformation deploy --stack-name $STACK_NAME \
-  --template-file deploy/cf.json \
-  --capabilities CAPABILITY_NAMED_IAM \
-  --no-fail-on-empty-changeset \
-  --parameter-overrides S3Key=$zip_name DDApiKey=$DD_API_KEY GitVersion=$GIT_VERSION DDTags=$DD_TAGS
+popd > /dev/null
 
-rm -r ./$zip_name
+# Grab the cloudfront ID and invalidate its cache
+CLOUDFRONT_ID=$(aws cloudfront list-distributions --query "DistributionList.Items[?Aliases.Items!=null] | [?contains(Aliases.Items, '$BACKEND_HOSTNAME')].Id | [0]" --output text)
+aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
+
+echo
+echo
+echo "Complete"
