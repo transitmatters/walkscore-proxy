@@ -9,10 +9,11 @@ app = Chalice(app_name="walkscore-proxy")
 localhost = "localhost:3000"
 TM_CORS_HOST = os.environ.get("TM_CORS_HOST", localhost)
 
-cors_config = CORSConfig(allow_origin=f"https://{TM_CORS_HOST}", max_age=3600)
-
 if TM_CORS_HOST != localhost:
+    cors_config = CORSConfig(allow_origin=f"https://{TM_CORS_HOST}", max_age=3600)
     app.register_middleware(ConvertToMiddleware(datadog_lambda_wrapper))
+else:
+    cors_config = CORSConfig(allow_origin=f"http://{TM_CORS_HOST}", max_age=3600)
 
 
 @app.route("/api/walkscore/{station_key}", cors=cors_config)
