@@ -6,17 +6,21 @@ authors = ["TransitMatters Labs Team"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "~3.11, <3.12"
+python = "~3.10, <3.11"
 requests = "2.31.0"
 boto3 = "1.33.3"
+datadog_lambda = "4.75.0"
+ddtrace = "1.15.0"
 
 [tool.poetry.dev-dependencies]
+pip = ">=23.0"
+chalice = "1.29.0"
 flake8 = "6.1.0"
 black = "^23.11.0"
 
 [tool.black]
 line-length = 120
-target-version = ['py311']
+target-version = ['py310', 'py311']
 
 [build-system]
 requires = ["poetry-core>=1.5.0"]
