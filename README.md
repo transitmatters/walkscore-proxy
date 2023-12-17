@@ -21,3 +21,7 @@ Requires a Walkscore® API key, which you can get from their [site](https://www.
   ...
 }
 ```
+
+## Development
+
+- Requires Python 3.11
