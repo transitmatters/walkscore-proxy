@@ -25,3 +25,9 @@ Requires a Walkscore® API key, which you can get from their [site](https://www.
 ## Development
 
 - Requires Python 3.11
+
+Run
+```
+poetry run chalice local --port=5000
+```
+to test
