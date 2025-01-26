@@ -4,24 +4,27 @@ version = "1.0.0"
 description = "Proxy calls to Walkscore® API to hide API key and cache results"
 authors = ["TransitMatters Labs Team"]
 license = "MIT"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "~3.12"
-requests = "2.31.0"
-boto3 = "^1.34.76"
-datadog_lambda = "5.92.0"
-ddtrace = "2.7.6"
+requests = "2.32.3"
+boto3 = "^1.34.138"
+datadog_lambda = "~6.104.0"
 
 [tool.poetry.dev-dependencies]
-pip = ">=23.2"
-chalice = "1.31.0"
-flake8 = "^7.0.0"
-black = "^24.3.0"
+pip = ">=24.1"
+chalice = "1.31.3"
+flake8 = "^7.1.1"
+black = "^24.10.0"
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = "^1.9.0"
 
 [tool.black]
 line-length = 120
 target-version = ['py312']
 
 [build-system]
-requires = ["poetry-core>=1.7.0"]
+requires = ["poetry-core>=1.9.0"]
 build-backend = "poetry.core.masonry.api"
