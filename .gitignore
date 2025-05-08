@@ -15,3 +15,5 @@ attribution.txt
 .idea
 *~
 *.pyc
+.envrc
+.cursor
