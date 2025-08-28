@@ -3,6 +3,7 @@ import os
 from chalice import Chalice, CORSConfig, ConvertToMiddleware
 from datadog_lambda.wrapper import datadog_lambda_wrapper
 import requests
+from dynamodb_cache import DynamoDBCache
 
 app = Chalice(app_name="walkscore-proxy")
 
@@ -20,12 +21,19 @@ else:
 def get_walkscore(station_key):
     with open(os.path.join("chalicelib", "stations.json")) as sjson:
         stations = json.load(sjson)
-    station = next((x for x in stations if x['station'] == station_key), None)
+    station = next((x for x in stations if x["station"] == station_key), None)
 
-    if (station is not None):
+    if station is not None:
+        cache_instance = DynamoDBCache()
+        cache = cache_instance.get(key=station["station"])
+        if cache:
+            print("returning from the cache")
+            return json.dumps(cache)
         # Call Walkscore API
         walkscore_response = requests.get(
             f"https://api.walkscore.com/score?format=json&address={station['address']}&lat={station['latitude']}&lon={station['longitude']}&bike=1&wsapikey={os.environ.get('WALKSCORE_API_KEY')}"
         )
-        return json.dumps(walkscore_response.json(), indent=4, sort_keys=True, default=str)
+        data = json.dumps(walkscore_response.json(), indent=4, sort_keys=True, default=str)
+        cache_instance.set(station["station"], data)
+        return data
     return None
