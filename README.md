@@ -24,7 +24,7 @@ Requires a Walkscore® API key, which you can get from their [site](https://www.
 
 ## Development
 
-- Requires Python 3.12
+- Requires Python 3.12 (with [mise](https://mise.jdx.dev): `mise trust && mise install`, pinned in `.python-version`)
 
 Run
 ```
