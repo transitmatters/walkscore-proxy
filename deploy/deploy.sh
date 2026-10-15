@@ -52,7 +52,7 @@ poetry run chalice package --stage $CHALICE_STAGE --merge-template cloudformatio
 aws cloudformation package --template-file cfn/sam.json --s3-bucket $BACKEND_BUCKET --output-template-file cfn/packaged.yaml
 aws cloudformation deploy --template-file cfn/packaged.yaml --stack-name $CF_STACK_NAME --capabilities CAPABILITY_IAM \
     --no-fail-on-empty-changeset \
-    --tags service=walkscore-proxy env=prod \
+    --tags service=walkscore-proxy env=prod team=tm-labs \
     --parameter-overrides \
     TMBackendCertArn=$BACKEND_CERT_ARN \
     TMBackendHostname=$BACKEND_HOSTNAME \
