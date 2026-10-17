@@ -1,0 +1,24 @@
+name: lint
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+      - name: Set up Python via mise
+        uses: jdx/mise-action@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+      - name: Lint code check with Ruff
+        run: |
+          uv run ruff check .
+      - name: Format code check with Ruff
+        run: |
+          uv run ruff format --check .

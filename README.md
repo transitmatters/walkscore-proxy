@@ -24,10 +24,23 @@ Requires a Walkscore® API key, which you can get from their [site](https://www.
 
 ## Development
 
-- Requires Python 3.12 (with [mise](https://mise.jdx.dev): `mise trust && mise install`, pinned in `.python-version`)
+- Requires Python 3.14 (with [mise](https://mise.jdx.dev): `mise trust && mise install`, pinned in `.python-version`)
+- Requires [uv](https://docs.astral.sh/uv/)
+
+Install dependencies and the pre-commit hook
+```
+uv sync
+uv run pre-commit install
+```
 
 Run
 ```
-poetry run chalice local --port=5000
+cd server && uv run chalice local --port=5000
 ```
 to test
+
+Lint and format
+```
+uv run ruff check .
+uv run ruff format .
+```
