@@ -22,12 +22,11 @@ def update_stations():
                 "longitude": stop["data"]["attributes"]["longitude"],
             }
             stationsdict_v2.append(new_station)
-        except:
+        except KeyError, TypeError:
             print(f"No data for station: {station['station']}")
-    
-    with open(os.path.join('server', 'chalicelib', 'stationsv2.json'),"w+") as sjson:
+
+    with open(os.path.join("server", "chalicelib", "stationsv2.json"), "w+") as sjson:
         json.dump(obj=stationsdict_v2, fp=sjson, indent=2)
-    
 
 
 if __name__ == "__main__":

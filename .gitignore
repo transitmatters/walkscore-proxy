@@ -5,8 +5,6 @@ server/requirements.txt
 server/.chalice/deployments
 server/chalicelib/__pycache__
 cfn/
-Pipfile
-Pipfile.lock
 attribution.txt
 *.pyc.*
 
@@ -17,3 +15,5 @@ attribution.txt
 *.pyc
 .envrc
 .cursor
+.venv
+.ruff_cache

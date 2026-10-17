@@ -20,9 +20,9 @@ else:
 def get_walkscore(station_key):
     with open(os.path.join("chalicelib", "stations.json")) as sjson:
         stations = json.load(sjson)
-    station = next((x for x in stations if x['station'] == station_key), None)
+    station = next((x for x in stations if x["station"] == station_key), None)
 
-    if (station is not None):
+    if station is not None:
         # Call Walkscore API
         walkscore_response = requests.get(
             f"https://api.walkscore.com/score?format=json&address={station['address']}&lat={station['latitude']}&lon={station['longitude']}&bike=1&wsapikey={os.environ.get('WALKSCORE_API_KEY')}"

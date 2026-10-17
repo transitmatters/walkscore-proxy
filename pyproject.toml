@@ -1,30 +1,26 @@
-[tool.poetry]
+[project]
 name = "walkscore-proxy"
 version = "1.0.0"
 description = "Proxy calls to Walkscore® API to hide API key and cache results"
-authors = ["TransitMatters Labs Team"]
+authors = [{ name = "TransitMatters Labs Team" }]
+requires-python = ">=3.14,<3.15"
 license = "MIT"
-package-mode = false
+dependencies = [
+    "requests==2.32.5",
+    "boto3>=1.43.70,<1.44.0",
+    "datadog_lambda>=8.129.0,<8.130",
+]
 
-[tool.poetry.dependencies]
-python = "~3.12"
-requests = "2.32.4"
-boto3 = "^1.34.138"
-datadog_lambda = "~6.108.0"
+[dependency-groups]
+dev = [
+    "chalice==1.33.0",
+    "ruff>=0.16.2",
+    "pre-commit>=4.6.2",
+]
 
-[tool.poetry.group.dev.dependencies]
-pip = ">=24.1"
-chalice = "1.31.4"
-flake8 = "^7.2.0"
-black = "^25.1.0"
-
-[tool.poetry.requires-plugins]
-poetry-plugin-export = "^1.9.0"
-
-[tool.black]
-line-length = 120
-target-version = ['py312']
+[tool.uv]
+package = false
 
 [build-system]
-requires = ["poetry-core>=2.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
