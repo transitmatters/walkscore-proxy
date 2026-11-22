@@ -8,7 +8,7 @@ license = "MIT"
 dependencies = [
     "requests==2.34.2",
     "boto3>=1.43.70,<1.44.0",
-    "datadog_lambda>=8.129.0,<8.130",
+    "datadog_lambda>=8.130.0,<8.131",
 ]
 
 [dependency-groups]
